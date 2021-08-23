@@ -7,7 +7,6 @@
 
 module.exports = {
   async redirect(ctx) {
-    console.log(ctx.params);
     const params = ctx.params;
 
     if (params.uid) {
